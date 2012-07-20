@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4875CE915B8D630005EB4E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4875CE815B8D630005EB4E8 /* Cocoa.framework */; };
+		C4875CF315B8D630005EB4E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4875CF115B8D630005EB4E8 /* InfoPlist.strings */; };
+		C4875CF515B8D630005EB4E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4875CF415B8D630005EB4E8 /* main.m */; };
+		C4875CFC15B8D630005EB4E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4875CFB15B8D630005EB4E8 /* AppDelegate.m */; };
+		C4875CFF15B8D631005EB4E8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4875CFD15B8D631005EB4E8 /* MainMenu.xib */; };
+		C4875D0815B8D858005EB4E8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4875D0715B8D858005EB4E8 /* WebKit.framework */; };
+		C4FB29AE15B8F4BA00CA6734 /* trello.icns in Resources */ = {isa = PBXBuildFile; fileRef = C4FB29AD15B8F4BA00CA6734 /* trello.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4875CE415B8D630005EB4E8 /* Trello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4875CE815B8D630005EB4E8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C4875CEB15B8D630005EB4E8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C4875CEC15B8D630005EB4E8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C4875CED15B8D630005EB4E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4875CF015B8D630005EB4E8 /* Trello-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trello-Info.plist"; sourceTree = "<group>"; };
+		C4875CF215B8D630005EB4E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4875CF415B8D630005EB4E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4875CF615B8D630005EB4E8 /* Trello-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trello-Prefix.pch"; sourceTree = "<group>"; };
+		C4875CFA15B8D630005EB4E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4875CFB15B8D630005EB4E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4875CFE15B8D631005EB4E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C4875D0715B8D858005EB4E8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C4FB29AD15B8F4BA00CA6734 /* trello.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = trello.icns; path = ../Trello/trello.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4875CE115B8D630005EB4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4875D0815B8D858005EB4E8 /* WebKit.framework in Frameworks */,
+				C4875CE915B8D630005EB4E8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4875CD915B8D630005EB4E8 = {
+			isa = PBXGroup;
+			children = (
+				C4875D0715B8D858005EB4E8 /* WebKit.framework */,
+				C4875CEE15B8D630005EB4E8 /* Trello */,
+				C4875CE715B8D630005EB4E8 /* Frameworks */,
+				C4875CE515B8D630005EB4E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4875CE515B8D630005EB4E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4875CE415B8D630005EB4E8 /* Trello.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4875CE715B8D630005EB4E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4875CE815B8D630005EB4E8 /* Cocoa.framework */,
+				C4875CEA15B8D630005EB4E8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4875CEA15B8D630005EB4E8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4875CEB15B8D630005EB4E8 /* AppKit.framework */,
+				C4875CEC15B8D630005EB4E8 /* CoreData.framework */,
+				C4875CED15B8D630005EB4E8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C4875CEE15B8D630005EB4E8 /* Trello */ = {
+			isa = PBXGroup;
+			children = (
+				C4875CFA15B8D630005EB4E8 /* AppDelegate.h */,
+				C4875CFB15B8D630005EB4E8 /* AppDelegate.m */,
+				C4875CFD15B8D631005EB4E8 /* MainMenu.xib */,
+				C4875CEF15B8D630005EB4E8 /* Supporting Files */,
+			);
+			path = Trello;
+			sourceTree = "<group>";
+		};
+		C4875CEF15B8D630005EB4E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4FB29AD15B8F4BA00CA6734 /* trello.icns */,
+				C4875CF015B8D630005EB4E8 /* Trello-Info.plist */,
+				C4875CF115B8D630005EB4E8 /* InfoPlist.strings */,
+				C4875CF415B8D630005EB4E8 /* main.m */,
+				C4875CF615B8D630005EB4E8 /* Trello-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4875CE315B8D630005EB4E8 /* Trello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4875D0215B8D631005EB4E8 /* Build configuration list for PBXNativeTarget "Trello" */;
+			buildPhases = (
+				C4875CE015B8D630005EB4E8 /* Sources */,
+				C4875CE115B8D630005EB4E8 /* Frameworks */,
+				C4875CE215B8D630005EB4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trello;
+			productName = Trello;
+			productReference = C4875CE415B8D630005EB4E8 /* Trello.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4875CDB15B8D630005EB4E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C4875CDE15B8D630005EB4E8 /* Build configuration list for PBXProject "Trello" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4875CD915B8D630005EB4E8;
+			productRefGroup = C4875CE515B8D630005EB4E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4875CE315B8D630005EB4E8 /* Trello */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4875CE215B8D630005EB4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4875CF315B8D630005EB4E8 /* InfoPlist.strings in Resources */,
+				C4875CFF15B8D631005EB4E8 /* MainMenu.xib in Resources */,
+				C4FB29AE15B8F4BA00CA6734 /* trello.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4875CE015B8D630005EB4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4875CF515B8D630005EB4E8 /* main.m in Sources */,
+				C4875CFC15B8D630005EB4E8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4875CF115B8D630005EB4E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4875CF215B8D630005EB4E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4875CFD15B8D631005EB4E8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4875CFE15B8D631005EB4E8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4875D0015B8D631005EB4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C4875D0115B8D631005EB4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C4875D0315B8D631005EB4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trello/Trello-Prefix.pch";
+				INFOPLIST_FILE = "Trello/Trello-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4875D0415B8D631005EB4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trello/Trello-Prefix.pch";
+				INFOPLIST_FILE = "Trello/Trello-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4875CDE15B8D630005EB4E8 /* Build configuration list for PBXProject "Trello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4875D0015B8D631005EB4E8 /* Debug */,
+				C4875D0115B8D631005EB4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4875D0215B8D631005EB4E8 /* Build configuration list for PBXNativeTarget "Trello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4875D0315B8D631005EB4E8 /* Debug */,
+				C4875D0415B8D631005EB4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4875CDB15B8D630005EB4E8 /* Project object */;
+}
