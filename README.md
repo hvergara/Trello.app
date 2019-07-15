@@ -4,4 +4,4 @@ Just a WebView OSX app for Trello
 
 ---
 
-Download (OSX 10.7/10.8): http://cl.ly/2v3G381U3n3V
+Note: this is an unmaintained project. Use the official [Trello Desktop](https://blog.trello.com/trello-desktop-app-for-mac-and-windows)
